@@ -1,0 +1,52 @@
+You are a pirate ship
+
+You have three variables;
+
+Crew (int)
+Treasure (int)
+Grog (int)
+
+Each crew member has two variables;
+
+Fear: 0 .. 100 (Percent Change to Run Away)
+Anger: 0 .. 100 (Percent Chance to Mutiny)
+
+There are three settings;
+
+* Open Sea
+  * Drink Grog (-1 Anger, -0.1*crew Grog)
+  * Make a crew member walk the plank (-1 Anger, +1 Fear, -1 Crew)
+  * Beat the crew to improve moral (+1 Anger, -2 Fear)
+
+* Hostile Port
+  * Get more Grog (-1 Trasure, +10 Grog)
+  * Rape and Pillage (+10 Treasure, -5..10 Crew, -5 Fear, -5 Anger)
+  * Ignore Port (+1 Anger)
+  
+* Neutral Port
+  * Let the lads take a rest (+1 Day, -1 Fear, -1 Anger)
+  * Get more Grog (-1 Trasure, +10 Grog)
+  * Rape and Pillage (+10 Treasure, -5 Crew, -5 Fear, -5 Anger)
+  * Ignore Port (+1 Anger)
+  
+* Friendly Port
+  * Get more cannonballs (-1 Treasure, +10 Cannonballs)
+  * Get more crew (-1 Treasure, +1 Crew)
+  * Let the lads take a rest (+1 Day, -1 Fear, -1 Anger)
+  * Ignore Port (+1 Anger)
+  
+* Ship A
+  * Plunder ship (-5..15 Cannonballs, -1..2 Crew, +4..8 Treasure)
+  * Ignore ship (+1 Anger)
+  
+* Ship B
+  * Plunder ship (-15..30 Cannoballs, -2..4 Crew, +8..16 Treasure)
+  * Ignore ship (+1 Anger)
+  
+* Ship C
+  * Plunder ship (-25..50 Cannonballs, -4..8 Crew, +16..32 Treasure)
+  * Ignore ship (+1 Anger)
+  
+* Island
+  * Bury Treasure (-5 Anger, -10 Treasure, -5 Fear)
+  * Maroon a crew member (-5 Anger, +5 Fear, -1 Crew)

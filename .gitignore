@@ -1,0 +1,4 @@
+externallibs/
+src/externallibs/
+src/git.lua
+._temp.love
