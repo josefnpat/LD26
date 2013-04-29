@@ -72,7 +72,7 @@ function love.draw()
       "GIT: ".. git_count .. " ["..git.."]",0,516,640,"center")
     love.graphics.setFont(fonts.small)
     love.graphics.setColor(colors.white)
-    love.graphics.printf("Survive as a pirate captian for 30 days!\nPress any key to start.",0,560,640,"center")
+    love.graphics.printf("Survive as a pirate captain for 30 days!\nPress any key to start.",0,560,640,"center")
   else
     love.graphics.setColor(colors.reset)
     love.graphics.draw(places_img[ship.place],0,0,0,2,2)

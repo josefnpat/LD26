@@ -1,5 +1,5 @@
 #Mini Pirates!
-##Survive as a pirate captian for 30 days!
+##Survive as a pirate captain for 30 days!
 By pressing the corresponding number on your keyboard, decide the fate of your ship and crew! The objective is to **hoard as much treasure as you can eat**!
 
 ## Tips!
